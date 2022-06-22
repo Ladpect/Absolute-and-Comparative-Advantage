@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>713</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>비교우위 절대우위 판별</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>631</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>list</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>56</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>A</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>56</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>B</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>30</y>
+       <width>56</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Product Y</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="XALabel_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>90</y>
+       <width>56</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>30</y>
+       <width>56</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Product X</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="axsb">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>60</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="aysb">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>60</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="bysb">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>90</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="bxsb">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>90</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>80</y>
+       <width>111</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>최소값 0 최대값 99</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="ResultBtn">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Result</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>301</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Absolute</string>
+    </property>
+    <widget class="QLabel" name="abx">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Product X에서 ?가 유리</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="aby">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>120</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Product Y에서 ?가 유리</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>280</y>
+      <width>301</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Comparative</string>
+    </property>
+    <widget class="QLabel" name="comx">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Product X에서 ?가 유리</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="comy">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>120</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Product Y에서 ?가 유리</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="combo">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>40</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>생산량</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>생산비용</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>510</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>비교우위 계산 값은 소수점 3번째 자리에서 반올림함</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>713</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
