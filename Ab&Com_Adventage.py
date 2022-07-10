@@ -21,7 +21,7 @@ class WindowClass(QMainWindow, form_class):
         vby = self.bysb.value()
         ch = self.combo.currentIndex()
         try:
-            if ch == 0:
+            if ch == 0: #생산량
                 if vax > vbx:
                     self.abx.setText(f"Product X에서 A가 유리")
                 elif vax < vbx:
@@ -52,7 +52,7 @@ class WindowClass(QMainWindow, form_class):
 #--------------------------------------------------------------------------------------------
 #-------------------------이 밑부터 생산비용---------------------------------------------------
 #--------------------------------------------------------------------------------------------
-            if ch == 1:
+            if ch == 1: #
                 if vax > vbx:
                     self.abx.setText(f"Product X에서 B가 유리")
                 elif vax < vbx:
